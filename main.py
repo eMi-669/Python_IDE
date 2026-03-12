@@ -19,6 +19,7 @@ class PythonIDE:
 
         self.editor.pack(fill=tk.BOTH, expand=True)
 
+
         self.console = scrolledtext.ScrolledText(
             self.root,
             wrap=tk.WORD,
@@ -30,6 +31,7 @@ class PythonIDE:
         )
 
         self.console.pack(fill=tk.BOTH, expand=True)
+
 
         menu = tk.Menu(self.root)
         self.root.config(menu=menu)
